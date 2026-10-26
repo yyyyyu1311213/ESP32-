@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "main/xiaozhi-esp32-2.2.4"
+    }
+  ],
+  "settings": {
+    "idf.currentSetup": "D:\\esp32\\v5.5.4\\esp-idf",
+    "idf.buildPath": "${workspaceFolder}/build",
+    "idf.buildPathWin": "${workspaceFolder}\\build",
+    "idf.flashType": "UART",
+    "idf.portWin": "COM5",
+    "idf.customExtraVars": {
+      "IDF_TARGET": "esp32s3"
+    },
+    "clangd.arguments": [
+      "--background-index",
+      "--query-driver=**",
+      "--compile-commands-dir=${workspaceFolder}/build"
+    ]
+  }
+}

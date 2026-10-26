@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        xiaozhi/xiaozhi_app_main.c
+        xiaozhi/xiaozhuyin.c
+        buzzer.c
+        dht11.c
+        lcd1602.c
+        font8x8.c
+        hc_sr04.c
+        led.c
+        #mic.c
+        audio.c
+    INCLUDE_DIRS
+        "."
+        "xiaozhi"
+    REQUIRES
+        driver
+        freertos
+        esp_timer
+)

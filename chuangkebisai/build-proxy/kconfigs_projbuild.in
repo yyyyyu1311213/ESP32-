@@ -1,0 +1,8 @@
+source "D:/esp32/chuangkebisai/main/xiaozhi-esp32-2.2.4/main/Kconfig.projbuild"
+source "D:/esp32/v5.5.4/esp-idf/components/bootloader/Kconfig.projbuild"
+source "D:/esp32/v5.5.4/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "D:/esp32/v5.5.4/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "D:/esp32/v5.5.4/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "D:/esp32/v5.5.4/esp-idf/components/partition_table/Kconfig.projbuild"
+source "D:/esp32/chuangkebisai/main/xiaozhi-esp32-2.2.4/managed_components/espressif2022__esp_emote_expression/Kconfig.projbuild"
+source "D:/esp32/chuangkebisai/main/xiaozhi-esp32-2.2.4/managed_components/espressif__esp-sr/Kconfig.projbuild"

@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "XiaoZhi: Build",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\xiaozhi.ps1",
+        "build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "detail": "Build the nested XiaoZhi ESP-IDF project",
+      "problemMatcher": [],
+      "runOptions": {
+        "reevaluateOnRerun": false
+      }
+    },
+    {
+      "label": "XiaoZhi: Flash",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\xiaozhi.ps1",
+        "flash",
+        "-Port",
+        "COM5"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "XiaoZhi: Flash Monitor",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\xiaozhi.ps1",
+        "flash-monitor",
+        "-Port",
+        "COM5"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
